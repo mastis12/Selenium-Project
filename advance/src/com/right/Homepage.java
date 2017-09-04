@@ -30,6 +30,7 @@ public class Homepage {
 	public void MainPage() {
 		
 		text.sendKeys("TW134GS");
+		System.out.println("this is Git");
 		buy.click();
 		
        button.click();		
