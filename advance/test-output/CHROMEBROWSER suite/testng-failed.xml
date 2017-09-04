@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CHROMEBROWSER suite]">
+  <test name="chrome test(failed)">
+    <classes>
+      <class name="com.mystore.main.LogintoApplication">
+        <methods>
+          <include name="f"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.mystore.main.LogintoApplication -->
+    </classes>
+  </test> <!-- chrome test(failed) -->
+</suite> <!-- Failed suite [CHROMEBROWSER suite] -->
